@@ -17,7 +17,8 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.cardview.widget.CardView;
 
-import com.example.browser.R;
+import top.itjl.browser.R;
+
 
 /**
  * @author: Kerwin
@@ -50,10 +51,7 @@ public class WebTitleBar extends CardView implements View.OnClickListener {
 
 
     private void initView(Context context, AttributeSet attrs) {
-//        TypedArray attributes = context.getTheme().obtainStyledAttributes(attrs, R.styleable.WebTitleBar, defStyleAttr, 0);
         LayoutInflater.from(context).inflate(R.layout.weight_web_title_bar, this, true);
-//        setElevation(DisplayUtils.px2dip(context, 10));
-//        rootView = inflate(context, R.layout.include_web_title_bar, this);
         homeBtn = findViewById(R.id.web_title_iv_btn_home);
         menuBtn = findViewById(R.id.web_title_iv_btn_menu);
         inputEdit = findViewById(R.id.web_title_et_url_input);

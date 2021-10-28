@@ -8,11 +8,11 @@ import android.view.WindowManager;
 import androidx.activity.ComponentActivity;
 import androidx.annotation.Nullable;
 
-import top.itjl.browser.BuildConfig;
-import com.example.browser.R;
-import top.itjl.browser.util.MLog;
 
 import butterknife.ButterKnife;
+import top.itjl.browser.BuildConfig;
+import top.itjl.browser.R;
+import top.itjl.browser.util.MLog;
 
 /**
  * @author: Kerwin

@@ -10,7 +10,7 @@ import android.webkit.WebViewClient;
 import android.widget.ProgressBar;
 import android.widget.Toast;
 
-import com.example.browser.R;
+import top.itjl.browser.R;
 import top.itjl.browser.view.base.BaseActivity;
 import top.itjl.browser.view.weight.WebTitleBar;
 
